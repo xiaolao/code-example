@@ -1,0 +1,1 @@
+此件目录用于保存下载的dynamodb stream文件.

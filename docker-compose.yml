@@ -1,0 +1,16 @@
+stream_sync:
+  image: 
+  volumes:
+    - ""
+    - ""
+  environment:
+    WORKER_INTERVAL: 300
+    LOAD_WORKER_CONCURRENCY: 4
+    EXTRACT_WORKER_CONCURRENCY: 4
+    PAPER_WORKER_CONCURRENCY: 4
+    AWS_REGION_NAME: ""
+    AWS_ACCESS_KEY_ID: ""
+    AWS_SECRET_ACCESS_KEY: ""
+    MONGODB_URI: ""
+    DING_URI: ""
+    DING_ROBOT_URI: ""
